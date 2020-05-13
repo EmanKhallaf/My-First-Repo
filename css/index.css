@@ -91,10 +91,11 @@ body
   background-color: white;
   box-shadow: grey;
   height: 610px;
-  width: 1640px;
+  width: 1600px;
   margin: 35px;
   margin-top: 70px;
-  margin-left: 50px;
+  margin-left: 90px;
+ 
 }
 .role 
 {
@@ -138,7 +139,7 @@ body
  .image1
  {
   width: 50%;
-  margin-left: 860px; 
+  margin-left: 842px; 
   margin-top: -455.5px;
  }
 
