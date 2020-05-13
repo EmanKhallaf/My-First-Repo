@@ -1,8 +1,162 @@
-nav {
-    height: 50px;
-    background-color: lightgrey;
+/* Logo Styles */
+body
+{
+  background-color:#F7F7F7;
+  color:#21044D;
+  font-family:"Avenir";
+}
+
+.logo 
+{
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+  font-family: "Krungthep";
+}
+
+#slogan 
+  {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Avenir";
+    font-style: medium;
   }
-  .inline-block {
-    padding: 15px;
-    display: inline-block;
-  }
+
+.nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  padding: 5px;
+  font-size: 14px;
+  font-family:"Avenir";
+}
+.nav a{
+  padding: 20px;
+  text-decoration: none;
+  color: #21044D;
+}
+
+/* Header */
+.headerBG 
+{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #21044D;
+  text-align: center;
+  margin-top: -50px;
+  padding: 35px;
+}
+.quote, .quote1
+{
+   color: white;
+   text-align: center;
+   font-size: 28px;
+   margin-top: 0px;
+   margin-left: 5px;
+}
+.quote1{
+  margin-top: -55px;
+}
+
+.semi, .semi2
+{
+  color: goldenrod;
+  font-family: "Lucida";
+  font-size: 60px;  
+}
+.semi
+{
+  margin-left: -390px;
+  margin-top: 30px;
+}
+.semi2
+{
+  margin-left: 410px;
+  margin-top: -60px;
+}
+.author{
+  color: goldenrod;
+  font-size: 12px;
+  margin-left: 300px;
+  margin-top: -10px;
+
+}
+/* Casestudy 1*/
+.card
+{
+  display: inline-block;
+  background-color: white;
+  box-shadow: grey;
+  height: 610px;
+  width: 1640px;
+  margin: 35px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.role 
+{
+  margin-top: -180px;
+  margin-left: 90px;
+  font-size: 14px;
+}
+.head
+{
+  margin-left: 90px;
+  margin-top: 3px;
+  font-size: 44px; 
+}
+.head2
+{
+  margin-left: 90px;
+  margin-top: -23px;
+  font-size: 23px; 
+}
+.paragraph
+{
+  margin-left: 90px;
+  margin-top: 100px;
+  font-size: 19px; 
+  width: 470px;
+}
+.rectangle
+{
+  background-color: #E75B75;
+  width:47.97px;
+  height: 186.8200px;
+  margin-top: 85px;
+} 
+.under
+{
+  width: 84px;
+  height: 3px;
+  background-color: #21044D;
+  margin-left: 90px;
+}
+ .image1
+ {
+  width: 50%;
+  margin-left: 860px; 
+  margin-top: -455.5px;
+ }
+
+.button
+{
+ border-width: 2px;
+ border-color: rgb(39, 4, 92);
+ border-style: solid;
+ background-color: white;
+ width: 241.85px;
+ height: 50.25px;
+ color: #21044D;
+ margin-left: 90px;
+ font-size: 12px;
+} 
+
+
+  
+
+
+   
