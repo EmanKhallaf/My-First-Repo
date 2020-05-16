@@ -99,7 +99,7 @@ body
 }
 .role, .head, .head2, .under, .paragraph, .button
 {
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .role
 {
@@ -162,7 +162,7 @@ body
 
   .role2, .head3, .head4, .under2, .paragraph2, .button2
   {
-    margin-left: 990px;
+    margin-left: 950px;
     margin-top: -50px;
   }
   .role2
@@ -216,7 +216,7 @@ body
 background-color: #6165D7;
 justify-content: left;
 width:47.97px;
-height: 186.8200px;
+height: 186.8px;
 margin-left: 1643px;
-margin-top: -570px;
+margin-top: -575px;
 }
