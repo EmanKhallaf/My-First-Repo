@@ -21,7 +21,6 @@ body
     font-family: "Avenir";
     font-style: medium;
   }
-
 .nav
 {
   display: flex;
@@ -130,10 +129,15 @@ body
 }
  .image1
  {
-  margin-left: 842px; 
+  margin-left: 800px; 
   margin-top: -495px;
-  width: 50%;
- 
+  width: 48%;
+ }
+ .balloon
+ {
+ margin-left: 1480px;
+  margin-top: -470px;
+  width: 11%;
  }
 .button
 {
@@ -145,7 +149,7 @@ body
  height: 50.25px;
  color: #21044D;
  font-size: 12px;
- margin-top: 20PX;
+ margin-top: 120PX;
 } 
 .rectangle
 {
@@ -156,8 +160,9 @@ body
   margin-top: -570px;
 } 
 
+/* Casestudy 2*/
   .casestudy2{
-    margin-top: 400px;
+    margin-top: 410px;
   }
 
   .role2, .head3, .head4, .under2, .paragraph2, .button2
@@ -198,8 +203,10 @@ body
    margin-top: -462.6px;
    margin-left: -41px;
    width: 50%;
+   max-width: 100%;
+   height: auto;
   }
-  .button2
+.button2
 {
  border-width: 2px;
  border-color: rgb(39, 4, 92);
@@ -220,3 +227,88 @@ height: 186.8px;
 margin-left: 1643px;
 margin-top: -575px;
 }
+
+/* Casestudy 3*/
+.casestudy3
+{
+  display: grid;
+  margin-left: 90px;
+  margin-top: 400px;
+  grid-template-columns:3% 50% 41%;
+  grid-template-areas: "rectangle3 content2 image3"
+}
+.image3
+{
+grid-area: image3;
+background-image: url("../images/pointbank.png");
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: -10px;
+
+}
+.content2
+{
+grid-area: content2;
+margin-top: 15px;
+margin-left: -40px;
+}
+.rectangle3
+{
+grid-area: rectangle3;
+background-color: #F6935C;
+width:47.97px;
+height: 186.8200px;
+margin-top: -495px;
+margin-left: -10px;
+}
+.BG
+{
+  height: 600px;
+  width: 1600px;
+  background-color: white;
+  align-self: end;
+  margin-top: 15px;
+
+}
+#butedit{
+  margin-top: 35px;
+}
+@media only screen and (max-width: 1000px){
+  .rectangle3{
+margin-left: 40px;
+}
+.casestudy3 {
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+   "content2 image3";
+   }
+  .BG{
+width: 780px;
+height: 630px;
+margin-top: -280px;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  .casestudy3 {
+    grid-template-rows: 300px 300px; 
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image3"
+      "content2";
+     }
+  .rectangle3
+  {
+    display: none;
+  }
+  .content2{
+    margin-left: -90px;
+    margin-top: auto;
+  }
+  .BG{
+  width: auto;
+  height: 850px;
+  margin-top: -530px;
+  }
+}
+  
